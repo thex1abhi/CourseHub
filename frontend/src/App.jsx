@@ -40,7 +40,7 @@ function App() {
 
       <Route path="/courses" element={<Courses />}></Route>
       <Route path="/buy/:courseId" element={ < Buy/>  }></Route>
-      <Route path="/purchases" element= { user? <Purchases /> : <Navigate to={"/login"} />  }></Route>
+      <Route path="/user/purchases" element= { user? <Purchases /> : <Navigate to={"/login"} />  }></Route>
         <Route path="/videos" element={<Videos />}></Route>  
  
        <Route path="/terms-condition" element={<Termscondition />}></Route>  
